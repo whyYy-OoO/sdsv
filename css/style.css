@@ -153,20 +153,19 @@
 .modal_head{
     font-family: Rubik-Medium;
     font-size: 28px;
-    color: #333;
-
+    color: #000000;
     width: 70px;
     height: 30px;
     margin-left: 117px;
     text-align: center;
 }
 
-.modal_input{
+.modal_input {
     width: 232px;
     height: 25px;
     font-size: 16px;
-    color: #828282;
-    border-bottom: 1px solid;
+    color: #000000;
+    border: 2px solid;
     border-top: none;
     border-right: none;
     border-left: none;
@@ -175,6 +174,7 @@
     font-family: Rubik-Regular;
     margin-left: 36px;
     margin-top: 24px;
+    background: transparent;
 }
 
 .modal_input_checkbox{
@@ -448,9 +448,6 @@
     margin-left: 168px;
     margin-right: 13px;
 }
-
-
-
 
 
 @media screen and (max-width: 390px){
